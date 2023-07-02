@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100..900&display=swap');
+
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+body{
+
+    background-color: lightgreen;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+h1, h2{
+
+    color: red;
+    text-align: center;
+
+}
+
+h2 b{
+
+    color:white;
+
+}
+
+h1 b{
+
+    color: black;
+
+}
+
+p{
+
+    font-size: 24px;
+    font-variation-settings: 'wght' 500;
+    text-align: center;
+
+}
+
+img{
+
+    width: 600px;
+    height: 500px;
+
+}
+
+#alinear{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.centrar{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.texto2{
+
+    position: relative;
+    left: 10px;
+
+}
+
+.texto1{
+
+    position: relative;
+    left: 15px;
+
+}
+
+#btn{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+button{
+
+    border: 3px inset darkmagenta;
+    background-color: black;
+    color: white;
+    width: 200px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+#infoExtra{
+
+    display: none;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+/*Diseño Responsivo*/
+
+@media(max-width: 400px){
+
+    body{
+    
+    background-color: blue;
+
+    }
+
+}
+
